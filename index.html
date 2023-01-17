@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    
+    <div class="main">
+        
+        <div class="lista">
+            <H1>Lista de Compras</H1>
+
+
+            <div class="compras">
+                <div class="inputBTN">
+                    <input type="text" class="inputItemProduto" placeholder="Produto">
+                    <input type="text" class="inputItemQuantidade" placeholder="Quantidade">
+                    <input type="text" class="inputItemValor" placeholder="Valor">
+                    <button class="btnAtivar">ADD</button>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="produtos">
+            <h1>Produtos</h1>
+            <div class="titleProdutos">
+                <table class="tabela">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Quantidade</th>
+                        <th>Valor</th>
+                        <th>Remover</th>
+                    </tr>
+                    <tr id="row0">
+                        <td>Arroz</td>
+                        <td>1 KG</td>
+                        <td>R$10</td>
+                        <td><button id="removerBtn">X</button></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+        
+    </div>
+
+
+
+</body>
+</html>

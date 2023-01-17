@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+}
+
+.main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;  
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    
+}
+
+.lista , .produtos{
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(194, 193, 193);
+
+}
+
+.inputBTN{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.titleItens{
+    font-weight:800;
+}
+
+
+.titleProdutos{
+    gap: 15px;
+    display: flex;
+}
+
+
+.inputItem{
+    width: 100%;
+}
+
+
+.tabela{
+    width: 100%;
+    border: 1px solid black
+
+}
